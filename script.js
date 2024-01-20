@@ -1,7 +1,7 @@
 function randomArray() {
     let arr = [];
-    for (let i = 1; i <= 16; i++) {//doubt; why is 16 used there
-        arr.push(Math.floor((Math.random() * 1.99)));//doubt: i still dont understand why float is used
+    for (let i = 1; i <= 16; i++) {
+        arr.push(Math.floor((Math.random() * 1.99)));
     }
     return arr;
 }
